@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PackVoyage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="img/Icon.jpg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PackVoyage</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">BOAS-VINDAS
+                    </a></li>
+                    <li><a href="#produtos">CONFIRA NOSSOS PRODUTOS!</a></li>
+                    <li><a href="#contato">CONTATO PARA MAIS INFORMAÇÕES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h2>Bem-vindo(a) à PackVoyage!</h2>
+                <p>A PackVoyage começou pequena, com uma linha de malas de viagem e acessórios pensados para quem viaja a negócios ou lazer. Cada modelo foi criado com materiais de altíssima resistência, desenvolvidos com base no que os clientes mais precisam, com um toque de elegância e sofisticação. A nossa proposta é transformar a bagagem de viagem em um verdadeiro reflexo de quem a utiliza, alguém que valoriza a qualidade, a praticidade e o estilo.</p>
+            </div>
+        </section>
+
+        <section id="produtos" class="section">
+            <div class="container">
+                <h2>Produtos</h2>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="img/Maleta2.webp" alt="Maleta de Viagem">
+                        <h3>Maleta de Viagem</h3>
+                        <p>R$ 199,00</p>
+                        <input type="checkbox" id="out-of-stock-1" class="stock-toggle">
+                        <label for="out-of-stock-1" class="buy-button">Comprar</label>
+                        <p class="fora-de-estoque">Produto fora de estoque, nos mande seu contato para que possamos te avisar quando estiver disponível por favor!</p>
+                    </div>
+                    <div class="product">
+                        <img src="img/Maleta1.webp" alt="Maleta de Negócios">
+                        <h3>Maleta de Negócios</h3>
+                        <p>R$ 299,00</p>
+                        <input type="checkbox" id="out-of-stock-2" class="stock-toggle">
+                        <label for="out-of-stock-2" class="buy-button">Comprar</label>
+                        <p class="fora-de-estoque">Produto fora de estoque, nos mande seu contato para que possamos te avisar quando estiver disponível por favor!</p>
+                    </div>
+                    <div class="product">
+                        <img src="img/Maleta3.jpg" alt="Maleta de Laptop">
+                        <h3>Maleta de Laptop</h3>
+                        <p>R$ 159,00</p>
+                        <input type="checkbox" id="out-of-stock-3" class="stock-toggle">
+                        <label for="out-of-stock-3" class="buy-button">Comprar</label>
+                        <p class="fora-de-estoque">Produto fora de estoque, nos mande seu contato para que possamos te avisar quando estiver disponível por favor!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="frete-gratis" class="section">
+            <div class="container">
+                <h2>Frete Grátis</h2>
+                <img src="img/Free.webp" alt="Frete Grátis para compras acima de 150 reais.">
+                <p>Compre a partir de R$150 e ganhe frete grátis para qualquer lugar do Brasil.</p>
+            </div>
+        </section>
+
+        <section id="reconhecimento" class="section">
+            <div class="container">
+                <h2>Reconhecimento Internacional</h2>
+                <img src="img/Global.jpg" alt="Várias franquias espalhadas pelo globo.">
+                <p>Nossa marca, com sua atenção aos detalhes e compromisso com a qualidade, logo ganhou reconhecimento internacional, se tornando um símbolo de confiança e estilo, reconhecida em países como Estados Unidos, Japão, França e Reino Unido. Ao longo dos anos continuamos inovando, sempre trazendo novas funcionalidades e designs que facilitam a vida de quem viaja, sendo questão de tempo até que nossos produtos passassem a ser sinônimo de durabilidade, elegância e, claro, praticidade.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <form class="contact-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3>&copy; 2025 VoyageInc. Todos os direitos reservados.</h3>
+        </div>
+    </footer>
+</body>
+</html>
